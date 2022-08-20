@@ -1,5 +1,9 @@
 package ud26_SpringMySQL_Ex3.dao;
 
-public interface IVentaDAO {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import ud26_SpringMySQL_Ex3.dto.Venta;
+
+public interface IVentaDAO extends JpaRepository<Venta, Integer>{
 
 }

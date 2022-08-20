@@ -14,27 +14,24 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name = "cajeros") 
-public class Cajeros {
-	
+@Table(name = "maquinas_registradoras")
+public class MaquinasRegist {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	@Column(name = "nomapels") // no hace falta si se llama igual
-	private String nomapels;
+	@Column(name = "piso") // no hace falta si se llama igual
+	private String piso;
 
 	@JsonIgnore
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "cajero")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "maqRegist")
 	private List<Venta> venta;
 
-	public Cajeros() {
+	public MaquinasRegist() {}
 
-	}
-
-	public Cajeros(int id, String nomapels, List<Venta> venta) {
-		
+	public MaquinasRegist(int id, String piso, List<Venta> venta) {
 		this.id = id;
-		this.nomapels = nomapels;
+		this.piso = piso;
 		this.venta = venta;
 	}
 
@@ -46,17 +43,19 @@ public class Cajeros {
 		this.id = id;
 	}
 
-	public String getNomapels() {
-		return nomapels;
+	public String getPiso() {
+		return piso;
 	}
 
-	public void setNomapels(String nomapels) {
-		this.nomapels = nomapels;
+	public void setPiso(String piso) {
+		this.piso = piso;
 	}
 
 	/**
 	 * @return the Venta
 	 */
+	@JsonIgnore
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Venta")
 	public List<Venta> getVenta() {
 		return venta;
 	}
@@ -67,7 +66,6 @@ public class Cajeros {
 
 	@Override
 	public String toString() {
-		return "Cajeros [id=" + id + ", nomapels=" + nomapels + ", venta=" + venta + "]";
+		return "Maquinas_Registradoras [id=" + id + ", piso=" + piso + ", venta=" + venta + "]";
 	}
-
 }
