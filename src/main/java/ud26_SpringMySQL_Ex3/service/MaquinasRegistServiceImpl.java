@@ -26,7 +26,7 @@ public class MaquinasRegistServiceImpl implements IMaquinasRegistService{
 
 	@Override
 	public MaquinasRegist Maq_RegistByID(int id) {
-		return iMaquinasRegistDao.findById(id).get();
+		return iMaquinasRegistDao.findById(id).orElse(null);
 	}
 
 	@Override

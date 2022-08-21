@@ -27,7 +27,7 @@ public class CajerosServiceImpl implements ICajerosService{
 
 	@Override
 	public Cajeros CajeroByID(int id) {
-		return iCajeroDAO.findById(id).get();
+		return iCajeroDAO.findById(id).orElse(null);
 	}
 
 	

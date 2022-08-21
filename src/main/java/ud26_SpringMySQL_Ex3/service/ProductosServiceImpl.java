@@ -26,7 +26,7 @@ public class ProductosServiceImpl implements IProductosService{
 
 	@Override
 	public Productos ProductosByID(int id) {
-		return iProductosDAO.findById(id).get();
+		return iProductosDAO.findById(id).orElse(null);
 	}
 
 	@Override
