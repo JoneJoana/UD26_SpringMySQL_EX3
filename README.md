@@ -22,76 +22,70 @@ mysql://b54e12e07c361b:83a2f30b@eu-cdbr-west-03.cleardb.net/heroku_090f70587c693
 
 #### GET
 ```
-ud27-spring-token-ex3.herokuapp.com/api/cajeros
-ud27-spring-token-ex3.herokuapp.com/api/cajeros/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/cajeros
+ud26-spring-mysql-ex3.herokuapp.com/api/cajeros/{id}
 ```
 #### POST
 ```
-ud27-spring-token-ex3.herokuapp.com/api/cajeros
+ud26-spring-mysql-ex3.herokuapp.com/api/cajeros
 ```
 #### PUT
 ```
-ud27-spring-token-ex3.herokuapp.com/api/cajeros/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/cajeros/{id}
 ```
 #### DELETE
 ```
-ud27-spring-token-ex3.herokuapp.com/api/cajeros/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/cajeros/{id}
 ```
-
 ## API Productos
-
 #### GET
 ```
-ud27-spring-token-ex3.herokuapp.com/api/productos
-ud27-spring-token-ex3.herokuapp.com/api/productos/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/productos
+ud26-spring-mysql-ex3.herokuapp.com/api/productos/{id}
 ```
 #### POST
 ```
-ud27-spring-token-ex3.herokuapp.com/api/productos
+ud26-spring-mysql-ex3.herokuapp.com/api/productos
 ```
 #### PUT
 ```
-ud27-spring-token-ex3.herokuapp.com/api/productos/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/productos/{id}
 ```
 #### DELETE
 ```
-ud27-spring-token-ex3.herokuapp.com/api/productos/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/productos/{id}
 ```
-
 ## API Maquinas Registradoras
-
 #### GET
 ```
-ud27-spring-token-ex3.herokuapp.com/api/productos
-ud27-spring-token-ex3.herokuapp.com/api/productos/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/productos
+ud26-spring-mysql-ex3.herokuapp.com/api/productos/{id}
 ```
 #### POST
 ```
-ud27-spring-token-ex3.herokuapp.com/api/productos
+ud26-spring-mysql-ex3.herokuapp.com/api/productos
 ```
 #### PUT
-ud27-spring-token-ex3.herokuapp.com/api/productos/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/productos/{id}
 ```
 #### DELETE
 ```
-ud27-spring-token-ex3.herokuapp.com/api/productos/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/productos/{id}
 ```
-
 ## API Ventas
-
 #### GET
 ```
-ud27-spring-token-ex3.herokuapp.com/api/venta
-ud27-spring-token-ex3.herokuapp.com/api/venta/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/venta
+ud26-spring-mysql-ex3.herokuapp.com/api/venta/{id}
 ```
 #### POST
 ```
-ud27-spring-token-ex3.herokuapp.com/api/venta
+ud26-spring-mysql-ex3.herokuapp.com/api/venta
 ```
 #### PUT
-ud27-spring-token-ex3.herokuapp.com/api/venta/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/venta/{id}
 ```
 #### DELETE
 ```
-ud27-spring-token-ex3.herokuapp.com/api/venta/{id}
+ud26-spring-mysql-ex3.herokuapp.com/api/venta/{id}
 ```
