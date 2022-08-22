@@ -15,6 +15,21 @@ Commits on Aug 20, 2022
 ## T27 - BASIC SECURITY (version actual rama main)
 - TOKEN SECURITY - rama TOKEN-SECURITY (ultima version)
 
+#### POST LOGIN
+```
+ud27-spring-token-ex3.herokuapp.com/login 
+```
+opciones login:
+{
+    "name":"root", 
+    "password":"root"
+}
+
+{
+    "name":"jone", 
+    "password":"1234"
+}
+
 mysql://b54e12e07c361b:83a2f30b@eu-cdbr-west-03.cleardb.net/heroku_090f70587c6932b
 
 ## API Cajeros
